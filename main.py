@@ -4,9 +4,9 @@ from datetime import date
 from datetime import timedelta
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-newsapi='f64708643fdc4b4194df57bfa7ec04b2'
-account_sid='AC770dce05b1b4824a4b8afc69b3e1934a'
-auth_token='402acd15438d602520a33eec2516e982'
+newsapi='*****************'
+account_sid='*************'
+auth_token='***************'
 
 datet=date.today()
 dateyesterday=datet-timedelta(days=1)
@@ -59,7 +59,7 @@ if abs(percentagev)>1:
         message = client.messages.create(
             body=articles1,
             from_='+1 985 531 1090',
-            to='+91 98409 13995'
+            to='****************'
         )
         print(message.status)
 
