@@ -16,7 +16,7 @@ datedaybefore=datet-timedelta(days=2)
 parameters={
     'function':'TIME_SERIES_DAILY',
     'symbol':STOCK,
-    'apikey':'ZIEYATXWWI5VTYPR'
+    'apikey':'**********'
 }
 response=requests.get(url='https://www.alphavantage.co/query',params=parameters)
 data=response.json()
